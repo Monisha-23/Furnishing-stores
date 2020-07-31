@@ -1,1 +1,1 @@
-# Furnishing-stores-_-first-repo
+# Furnishing-stores
