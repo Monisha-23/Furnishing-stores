@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <!--jQuery library--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Latest compiled and minified JavaScript--> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            //margin: 0;
+            //padding: 0;
+            font-family: sans-serif;
+            background: url(login.jpg) no-repeat;
+            background-size: cover;
+        }
+        .login-box{
+            width: 280px;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            color: black;
+            transform: translate(-50%,-50%);
+            padding-bottom: 175px;
+        }
+        .login-box h1{
+            float: left;
+            font-size: 40px;
+            border-bottom: 2px solid #000;
+            margin-bottom: 50px;
+            padding: 13px 0;
+        }
+        .textbox{
+            width: 100%;
+            overflow: hidden;
+            font-size: 20px;
+            padding: 8px 0;
+            margin:8px 0;
+            border-bottom: 2px solid #000;
+        }
+        .textbox i{
+            width: 26px;
+            float: left;
+            text-align: center;
+        }
+         .textbox input{
+            border: none;
+            outline: b;
+            background: none;
+            color: black;
+            font-size:18px;
+            width: 80%;
+            float: left;
+            margin: 0 10px;
+        }
+        .btn{
+            width: 100%;
+            background: none;
+            border: 2px solid #000;
+            color: white;
+            padding: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            margin: 12px 0;
+        }
+    </style>
+    </head>
+    <body> 
+        <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+          <div class="navbar-header">
+              <a href="index.html" class="navbar-brand">Lifestyle Store</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="signup.html" ><span class="glyphicon glyphicon-user"> Signup</span></a></li>
+              <li><a href="login.html"><span class="glyphicon glyphicon-log-in"> Login</span></a></li>
+          </ul>
+        </nav>
+        </header> 
+        
+      
+            <div class="login-box">
+                <h1>Login</h1><br>
+                <div class="textbox">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="text" class="form-control" name="email" placeholder="Email"/>
+                </div><br>
+                <div class="textbox">
+                     <i class="fa fa-lock" aria-hidden="true"></i>
+                                   <input type="text" class="form-control" name="password" placeholder="Password"/>
+                </div><br>
+                 <button type="submit" value="Login" class="btn btn-primary">Login</button>
+            </div> 
+                     
+                
+    
+         <footer>
+           <center>
+            <div class="container">
+                <p>Copyright &copy; Lifestyle Store. All Rights Reserved | Bootstrap and CSS</p> 
+            </div>
+            </center> 
+        </footer>
+    </body>
+</html>
